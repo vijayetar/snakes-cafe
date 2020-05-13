@@ -62,8 +62,7 @@ def order_meal():
     if order == "quit":
       break
     if order in items_dict:
-      items_dict[order] += 1
-    print(items_dict)   
+      items_dict[order] += 1   
     print(f"** {items_dict[order]} order of {order} have been added to your meal **")
 
 if __name__ == "__main__":
