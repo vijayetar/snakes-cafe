@@ -1,4 +1,5 @@
 from textwrap import dedent
+
 menu_list = {'Wings', 'Cookies', 'Spring Rolls', 'Salmon', 'Steak', 'Meat Tornado', 'A Literal Garden', 'Ice Cream', 'Cake', 'Pie', 'Coffee', 'Tea', 'Unicorn Tears'}
 
 def welcome_cafe():
@@ -13,7 +14,6 @@ def welcome_cafe():
   print("\n")
 
 def show_menu():
-    # need to print the key, then dashed line and then the values
   menu= """
 Appetizers
 ----------
