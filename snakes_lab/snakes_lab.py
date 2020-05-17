@@ -56,8 +56,9 @@ def order_meal():
   value = 0
   items_dict = dict.fromkeys(menu_dict,value)
   # now take the order and then check if it exists in the menu_list
+  
+  prompt()
   while True:
-    prompt()
     order = input()
     if order == "quit":
       break
